@@ -1,0 +1,43 @@
+body {
+	background-color: lightGrey;
+	font-family: Arial;
+}
+.container {
+	margin: 50px auto;
+	padding: 15px;
+	width: 600px;
+	border: 10px solid grey;
+	border-radius: 10px;
+}
+.container input {
+	border: 3px solid grey;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.button-list {
+	margin-bottom: 10px;
+}
+.button-list button {
+	background-color: #9ea2a8;
+	border-color: #9ea2a8;
+	border-radius: 5px;
+	outline: none;
+}
+.button-list button.active {
+	background-color: #808893;
+	border-color: #808893;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+}
+.float-right {
+	float: right;
+}
